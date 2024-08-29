@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body>
+    <!-- A form for user input to enter a city name and submit to get the weather information -->
+    <form class="weatherForm">
+      <!-- Input field for entering the city name -->
+      <input type="text" class="cityInput" placeholder="Enter City Name" />
+
+      <!-- Submit button to fetch the weather data -->
+      <button type="submit">Get Weather</button>
+    </form>
+
+    <!-- A hidden card element that will display weather information once fetched -->
+    <div class="card" style="display: none"></div>
+
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
